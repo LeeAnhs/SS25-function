@@ -1,4 +1,4 @@
-let password = promt("Nhập mật khẩu của bạn");
+let password = prompt("Nhập mật khẩu của bạn");
 function isStrongPassword(password) {
   if (password.length < 8) {
     return false;
